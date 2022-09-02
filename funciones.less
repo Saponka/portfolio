@@ -1,0 +1,19 @@
+
+ .dFlex( @direction: row , @justify: space-between , @align: center){
+	display: flex;
+	flex-direction: @direction;
+	justify-content: @justify;
+	align-items: @align;
+}
+
+
+.dGrid( @cantCol:1 , @medidaFila:200px , @gap: 10px 15px){
+	display: grid;
+
+	grid-template-columns: repeat(@cantCol , 1fr);
+
+	grid-auto-rows: @medidaFila;
+
+	grid-gap: @gap;
+}
+

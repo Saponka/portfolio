@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Googlefonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comforter&family=Faster+One&family=Libre+Barcode+128+Text&family=Meddon&family=Road+Rage&family=Rock+3D&family=Rock+Salt&family=RocknRoll+One&family=Sassy+Frass&family=Syncopate:wght@400;700&family=Vast+Shadow&display=swap" rel="stylesheet">
+       <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+    <!--  -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" rel="stylesheet" />
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<link rel="stylesheet" href="./dist/index.min.css">
+    <title>Portfolio</title>
+</head>
+<body >
+      <!-- Navigation-->
+      <nav class="navbar navbar-light  fixed-top">
+         <div class="container-fluid">
+           <a class="navbar-brand " href="#"></a>  
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end " tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Franco Herrera Ruiz</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Acerca de Mí</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Proyectos
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                    <li><a class="dropdown-item" href="https://saponka.github.io/ColorGame/">Color Game</a></li>
+                    <li><a class="dropdown-item" href="https://saponka.github.io/weather-channel/">Weather Channel</a></li>
+                    <li><a class="dropdown-item" href="https://comixzoom.herokuapp.com/">ComixZoom</a></li>
+                    <li><a class="dropdown-item" href="https://saponka.github.io/ListaTareas/">Lista de Tareas</a></li>
+                    <li><a class="dropdown-item" href="#">Aplicacion de Gestion</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Otras</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <header id="banner">
+        <img src="./img/ocean-g177104987_1920.jpg" alt="">
+        <div >
+            <h1 >Franco Herrera Ruiz</h1>
+            <h2 ><em>Programador Web FullStack</em></h2>
+            <a class="btn btn-success btn-xl" href="#portfolio">Proyectos</a>
+        </div>
+      </header>
+      <!-- Acerca de mi -->
+      <section class="content-section bg-light text-dark text-center  p-5" id="AcercaDeMi" >
+        <div class="container px-4 px-lg-5  text-center">
+            <div id="foto">
+                <img src="./img/WhatsApp Image 2022-02-02 at 15.03.25.jpeg" alt="">
+            </div><br>
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div >
+                    <h2>Este Portfolio es una Muestra Perfecta de los Projectos que he Realizado!</h2>
+                    <p class="lead mb-5">
+                       Mi meta es convertirme en un buen programador, Me gustaria Especializarme en FrontEnd y llegar a manejar diferentes lenguajes,
+                        y a lo largo de mi apredizaje poder programar Videos Juegos que es algo que me apaciona!.
+                    </p>
+                    <a class="btn btn-dark btn-xl" href="#services">Experiencia</a>
+                </div>
+            </div>
+        </div>
+      </section>
+      <!-- Callout-->
+    <section class="content-section bg-dark  text-center" id="callout">
+        <img src="./img/hardwood-gf379c135d_1920.jpg" alt="">
+        <div class=" px-4 px-lg-5 text-center">
+            <h1 class="mx-auto mb-5">
+                Bienvenido a <br> 
+                <em>Mis Proyectos</em>  
+            </h1>  
+        </div>
+    </section>
+  
+     <!-- Portfolio-->
+     <section class="content-section p-5" id="portfolio">
+        <div class="container px-4 px-lg-5">
+            <div class="content-section-heading text-center">
+                
+                <h2 class="mb-5">Proyectos</h2>
+            </div>
+            <div class="row gx-0">
+                <div class="col-lg-6">
+                    <a class="portfolio-item" target="blank" href="https://saponka.github.io/weather-channel/">
+                        <div class="caption">
+                            <div class="caption-content ">
+                                <div class="h2">Weather Channel</div>
+                                <p class="mb-0 ">Aplicacion del Clima</p>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="./img/proyectos/weather channel.png" alt="..." />
+                    </a>
+                </div>
+                <div class="col-lg-6">
+                    <a class="portfolio-item" target="blank" href="https://saponka.github.io/ListaTareas/">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <div class="h2">To do List</div>
+                                <p class="mb-0">Lista de Tareas</p>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="./img/proyectos/Lista de Tareas.png" alt="..." />
+                    </a>
+                </div>
+
+                <div class="col-lg-6">
+                    <a class="portfolio-item" target="blank" href="https://saponka.github.io/ColorGame/">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <div class="h2">Color Game</div>
+                                <p class="mb-0">Adivina el Color RGB </p>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="./img/proyectos/colorete.png" alt="..." />
+                    </a>
+                </div>
+                <div class="col-lg-6">
+                    <a class="portfolio-item" target="blank" href="https://saponka.github.io/A-Ventures/">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <div class="h2">A-Ventures</div>
+                                <p class="mb-0">Elige tu Propia Aventura</p>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="./img/proyectos/a-venture.png" alt="..." />
+                    </a>
+                </div>
+                <div class="col-lg-6">
+                    <a class="portfolio-item" target="blank" href="https://saponka.github.io/restaurante/">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <div class="h2">Resto</div>
+                                <p class="mb-0">Theme Page de Restaurant</p>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="./img/proyectos/resto.png" alt="..." />
+                    </a>
+                </div>
+                <div class="col-lg-6">
+                    <a class="portfolio-item" target="blank" href="https://comixzoom.vercel.app/">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <div class="h2">Comix Zoom</div>
+                                <p class="mb-0">Fan Page de Comics</p>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="./img/proyectos/comixZoom.png" alt="..." />
+                    </a>
+                </div>
+    </section>
+    <section class="content-section p-5" id="portfolio">
+        <div class="container px-4 px-lg-5">
+            <div class="content-section-heading text-center">
+                
+                <h2 class="mb-5">Proyectos Recientes</h2>
+            </div>
+            <div class="row gx-0">
+                <div class="col-lg-6">
+                    <a class="portfolio-item" target="blank" href="https://saponka.github.io/A-Ventures/">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <div class="h2">Typer 3000</div>
+                                <p class="mb-0">Juego de palabras</p>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="./img/proyectos/a-venture.png" alt="..." />
+                    </a>
+                </div>
+                <div class="col-lg-6">
+                    <a class="portfolio-item" target="blank" href="https://saponka.github.io/A-Ventures/">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <div class="h2">Bonzai Tek</div>
+                                <p class="mb-0">App de gestion de Datos</p>
+                                <p class="mb-0">Mongo Express React NodeJs</p>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="./img/proyectos/a-venture.png" alt="..." />
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>      
+        <!-- Services-->
+      <section class="content-section bg-dark text-white text-center p-5" id="services">
+        <div class="container px-4 px-lg-5">
+            <div class="content-section-heading">
+                <h2 class="mb-5">Experiencia</h2>
+            </div>
+            <div class="row gx-4 gx-lg-5 p-5">
+                <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+                    <span ><img src="./img/svg/nodejs-icon-logo-svgrepo-com.svg" alt=""></span>
+                    <h4><strong> Node JS</strong></h4>
+                    <p class="text-faded mb-0"> Desarrollo de Aplicaciones de alto rendimiento y mejor experiencia de uso</p>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+                    <span ><img src="./img/svg/mysql-logo-svgrepo-com.svg" alt=""></span>
+                    <h4><strong>MySQL</strong></h4>
+                    <p class="text-faded mb-0">
+                        Gestión de Base de Datos Relacionales</p>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+                    <span ><img src="./img/svg/mongodb-svgrepo-com.svg" alt=""></span>
+                    <h4><strong>MongoDB</strong></h4>
+                    <p class="text-faded mb-0">Base de datos NoSQL, orientado a documentos </p>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+                    <span ><img src="./img/svg/computer-coding-svgrepo-com.svg" alt=""></span>
+                    <h4><strong>FrontEnd</strong></h4>
+                    <p class="text-faded mb-0">HTML5, CSS3, JS </p>
+                </div>
+            </div>
+            <div class="row gx-4 gx-lg-5 p-5">
+                <div class="col-lg-3 col-md-6">
+                    <span ><img src="./img/svg/bootstrap-fill-svgrepo-com.svg" alt=""></span>
+                    <h4><strong>Bootstrap</strong></h4>
+                    <p class="text-faded mb-0">Desarrollo web de un modo más sencillo y rápido.</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <span ><img src="./img/svg/less-svgrepo-com.svg" alt=""><img src="./img/svg/sass-svgrepo-com.svg" alt=""></span>
+                    <h4><strong>Less</strong> y <strong>Sass</strong></h4>
+                    <p class="text-faded mb-0">Pre-Procesador CSS.</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <span ><img src="./img/svg/angular-icon-logo-svgrepo-com.svg" alt=""></span>
+                    <h4><strong>Angular</strong></h4>
+                    <p class="text-faded mb-0">Frameworks de aplicaciones web desarrollado en TypeScript que se utiliza para crear SPA.</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <span ><img src="./img/svg/react-svgrepo-com.svg" alt=""></span>
+                    <h4><strong>React</strong></h4>
+                    <p class="text-faded mb-0"> Biblioteca JS para crear interfaces de usuario,desarrollo SPA.</p>
+                </div>
+            </div>
+          </div>
+        
+    </section>
+    
+    <!-- Call to Action-->
+    <section class="content-section bg-secondary text-white p-5">
+        <div class="container px-4 px-lg-5 text-center">
+            <h2 class="mb-4">Gracias por visitar mi portfolio antes de que te vallas...</h2>
+            <a class="btn btn-xl btn-light me-4" href="#formulario">Contactame!</a>
+            <a class="btn btn-xl btn-dark" href="#AcercaDeMi">Acerca de mi!</a>
+        </div>
+    </section>
+    <!-- form -->
+    <div class="container2 bg-dark p-5  ">
+        <form action="https://formspree.io/f/xqkwyrny" method="POST" class="p-5" id="formulario">
+           <h1 class="title">Contacto</h1>
+         <div class="divContainer">
+            <input type="text" name="nombre" id="nombre" class="input" placeholder="Ingrese su Nombre" required />
+            <label for="nombre" class="label">Nombre :</label>
+         </div>
+ 
+         <div class="divContainer">
+           <input type="text" name="apellido" class="input" placeholder="Ingrese su Apellido" required />
+           <label class="label">Apellido :</label>
+         </div>
+ 
+         <div class="divContainer">
+           <input type="number" name="edad" class="input" placeholder="Ingrese su Edad" required />
+           <label for="" class="label">Edad :</label>
+         </div>
+ 
+         <div class="divContainer">
+           <input type="text" name="email" class="input" placeholder="Ingrese su @mail" required />
+           <label for="" class="label">Email :</label>
+         </div>
+ 
+         <div class="container" ><br>
+           <h4  class="text-center ">Mensaje</h4><br>
+             <textarea name="text" id="" cols="20" rows="10" placeholder="Mensaje" class="textArea"></textarea><br>
+            </div>
+            <button type="submit" class="btn btn-outline-success">Enviar</button><br>
+        </form>
+        </div>
+
+     <!-- footer -->
+     <footer class="footer text-center">
+        <div class="container px-4 px-lg-5">
+            <ul class="list-inline mb-5">
+                <li class="list-inline-item">
+                    <a class="social-link rounded-circle text-white mr-3"target="blank" href="https://www.instagram.com/?hl=es-la"><i class="icon-social-instagram"></i></a>
+                </li>
+                <li class="list-inline-item">
+                    <a class="social-link rounded-circle text-white mr-3" target="blank"href="https://www.linkedin.com/feed/"><i class="icon-social-linkedin"></i></a>
+                </li>
+                <li class="list-inline-item">
+                    <a class="social-link rounded-circle text-white" target="blank" href="https://github.com/Saponka"><i class="icon-social-github"></i></a>
+                </li>
+            </ul>
+            <p id="foot" class="text-muted small mb-0"><!-- Copyright ©  -->Franco Herrera Ruiz 2022</p>
+        </div>
+    </footer>
+      <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
