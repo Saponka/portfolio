@@ -48,6 +48,12 @@
   font-size: 0.5em;
   font-weight: bold;
 }
+.boton:hover {
+  background-color: red;
+}
+.boton2:hover {
+  background-color: #20a17c;
+}
 #foto img {
   width: 240px;
   border-radius: 50%;
