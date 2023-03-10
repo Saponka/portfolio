@@ -40,8 +40,8 @@
 #banner div h1,
 #callout div h1 {
   color: #000000;
-  font-size: 7rem;
-  -webkit-text-stroke: 0.5px #20f59c;
+  font-size: 5rem;
+  -webkit-text-stroke: 0.5px #f07e32;
 }
 #banner div p,
 #callout div p {
@@ -83,7 +83,6 @@
 @media (min-width: 992px) {
   .portfolio-item {
     max-width: none;
-    margin: 0;
   }
   .portfolio-item .caption {
     transition: background-color 0.7s, -webkit-clip-path 0.25s ease-out;
