@@ -12,8 +12,7 @@
 }
 #banner,
 #callout {
-  width: 100%;
-  height: 95vh;
+  height: 570px;
   position: relative;
 }
 #banner img,
@@ -40,8 +39,9 @@
 #banner div h1,
 #callout div h1 {
   color: #000000;
-  font-size: 5rem;
-  -webkit-text-stroke: 0.5px #f07e32;
+  font-size: 7rem;
+  font-family: 'Splash';
+  -webkit-text-stroke: 0.5px #2edac1;
 }
 #banner div p,
 #callout div p {
@@ -54,11 +54,31 @@
 .boton2:hover {
   background-color: #20a17c;
 }
-#foto img {
-  width: 240px;
-  border-radius: 50%;
+#foto {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
-/* portfolio */
+#foto img {
+  width: 180px;
+  border-radius: 20%;
+}
+#AcercaDeMi {
+  background: #00897B;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #00897B, #99f2c8, #00897B);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right #00897B, #99f2c8, #00897B);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+#AcercaDeMi p {
+  font-family: 'Teko';
+}
+#portfolio h2 {
+  font-family: 'Dawning of a New Day';
+  font-size: 3rem;
+}
 .portfolio-item {
   display: block;
   position: relative;
@@ -66,15 +86,16 @@
   max-width: 530px;
   margin: auto auto 1rem;
   text-decoration: none;
-  color: #fffb07;
+  color: rgba(255, 251, 7, 0);
 }
 .portfolio-item .caption {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   height: 100%;
   width: 100%;
-  background-color: rgba(33, 37, 41, 0.2);
+  background-color: rgba(33, 37, 41, 0);
   position: absolute;
   top: 0;
   bottom: 0;
@@ -84,6 +105,9 @@
   .portfolio-item {
     max-width: none;
   }
+  .portfolio-item .caption .caption-content {
+    color: #DADCE0;
+  }
   .portfolio-item .caption {
     transition: background-color 0.7s, -webkit-clip-path 0.25s ease-out;
     transition: clip-path 0.25s ease-out, background-color 0.7s;
@@ -92,11 +116,11 @@
     clip-path: inset(0px);
   }
   .portfolio-item .caption .caption-content {
-    color: #fffb07;
+    color: rgba(0, 0, 0, 0);
     transition: opacity 0.25s;
     margin: auto;
     font-weight: 300;
-    font-size: 1.2rem;
+    font-size: 1.7rem;
   }
   .portfolio-item img {
     transition: -webkit-clip-path 0.25s ease-out;
@@ -114,11 +138,16 @@
     -webkit-clip-path: inset(2rem);
     clip-path: inset(2rem);
   }
+  .portfolio-item:hover .caption .caption-content {
+    color: #060000;
+  }
 }
 /* Formulario */
 .container2 {
   display: flex;
+  flex-direction: row;
   justify-content: center;
+  align-items: center;
 }
 #formulario {
   background-color: white;

@@ -13,9 +13,10 @@
  .dropdown-menu{
     background-color: #54b9ac;
   }
+  //banner y callout
   #banner, #callout{
-    width: 100%;
-    height: 95vh;
+    height: 570px;
+  
     position: relative;
     img{
         width: 100%;
@@ -32,11 +33,12 @@
         //background-image: ;
         font-size: 50px;
         text-align: center;
-        .dFlex( column , center, center);
+        .dFlex( column );
         h1{
             color: rgb(0, 0, 0);
-            font-size: 5rem;
-            -webkit-text-stroke: 0.5px @colorSecundario;
+            font-size: 7rem;
+            font-family: 'Splash';
+            -webkit-text-stroke: 0.5px @colorTerciario;
         };
         p{
             font-size: 0.5em;
@@ -50,13 +52,31 @@
   .boton2:hover{
     background-color: rgb(32, 161, 124);
   }
+  //imagen
  #foto{
+   .dFlex();
+   
     img{
-        width: 240px;
-        border-radius: 50%;   
+        width: 180px;
+        border-radius: 20%;   
      }
   }
-  /* portfolio */
+  //about ...
+  #AcercaDeMi{
+    background: #00897B;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right,#00897B, #99f2c8, #00897B);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right #00897B, #99f2c8, #00897B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    p{
+      font-family: 'Teko';
+    }
+  }
+  //portfolio 
+  #portfolio{
+    h2{
+      font-family: 'Dawning of a New Day';
+      font-size: 3rem;
+    }
+  }
    .portfolio-item {
     display: block;
     position: relative;
@@ -64,15 +84,13 @@
     max-width: 530px;
     margin: auto auto 1rem;
     text-decoration: none;
-    color: rgb(255, 251, 7); //
+    color: rgba(255, 251, 7, 0); 
   }
    .portfolio-item .caption {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    .dFlex();
     height: 100%;
     width: 100%;
-    background-color: rgba(33, 37, 41, 0.2);
+    background-color: rgba(33, 37, 41, 0);
     position: absolute; 
     top: 0; 
     bottom: 0; 
@@ -81,7 +99,9 @@
   @media (min-width: 992px) {
     .portfolio-item {
       max-width: none;
-      
+      .caption .caption-content{
+        color: #DADCE0;
+      }
     }
     .portfolio-item .caption {
       transition: background-color 0.7s, -webkit-clip-path 0.25s ease-out;
@@ -91,11 +111,11 @@
               clip-path: inset(0px);
     }
     .portfolio-item .caption .caption-content {
-      color: rgb(255, 251, 7);
+      color: rgba(0, 0, 0, 0);
       transition: opacity 0.25s;
       margin: auto;
-       font-weight: 300;
-      font-size: 1.2rem;
+      font-weight: 300;
+      font-size: 1.7rem;
      
        
     }
@@ -114,13 +134,16 @@
       background-color: rgba(29, 128, 159, 0.9);
       -webkit-clip-path: inset(2rem);
               clip-path: inset(2rem);
+              .caption-content {
+                color: rgb(6, 0, 0);
+                
+              }
             
     }
   }
   /* Formulario */
   .container2 {
-    display: flex;
-    justify-content: center;
+    .dFlex();
   }
   #formulario{
     background-color: white;
