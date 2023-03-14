@@ -13,6 +13,29 @@
  .dropdown-menu{
     background-color: #54b9ac;
   }
+  //mode dark/ligth
+  :root {
+    --color-bg: #000000;
+    --color-fg: #ffffff;
+  }
+  
+  body {
+    background-color: var(--color-bg);
+    color: var(--color-fg);
+  }
+
+.controls  .ligth {
+    display: none; 
+    border-radius: 10px; 
+    width: 40px;
+}
+.controls  .dark {
+    background-color :"black";
+    color:"white";
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 40px;
+}
   //banner y callout
   #banner, #callout{
     height: 570px;
